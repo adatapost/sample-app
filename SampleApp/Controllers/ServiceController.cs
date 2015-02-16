@@ -6,18 +6,10 @@ using System.Web.Mvc;
 
 namespace SampleApp.Controllers
 {
-    public class HomeController : Controller
+    public class ServiceController : Controller
     {
-        // GET: Home
+        // GET: Service
         public ActionResult Index()
-        {
-            return View();
-        }
-        public ActionResult About()
-        {
-            return View();
-        }
-        public ActionResult Contact()
         {
             return View();
         }
