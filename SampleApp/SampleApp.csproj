@@ -90,6 +90,9 @@
     <Content Include="Areas\Admin\Views\web.config" />
     <Content Include="Areas\Branch\Views\web.config" />
     <Content Include="Areas\Employee\Views\web.config" />
+    <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Admin\Views\Category\Index.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -105,6 +108,8 @@
     <Compile Include="Areas\Branch\BranchAreaRegistration.cs" />
     <Compile Include="Areas\Branch\Controllers\ClientController.cs" />
     <Compile Include="Areas\Branch\Controllers\StaffController.cs" />
+    <Compile Include="Areas\Employee\Controllers\OrderController.cs" />
+    <Compile Include="Areas\Employee\Controllers\SaleController.cs" />
     <Compile Include="Areas\Employee\EmployeeAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ServiceController.cs" />
@@ -135,15 +140,14 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Models\" />
-    <Folder Include="Areas\Admin\Views\Category\" />
     <Folder Include="Areas\Admin\Views\Product\" />
-    <Folder Include="Areas\Admin\Views\Shared\" />
     <Folder Include="Areas\Branch\Models\" />
     <Folder Include="Areas\Branch\Views\Client\" />
     <Folder Include="Areas\Branch\Views\Shared\" />
     <Folder Include="Areas\Branch\Views\Staff\" />
-    <Folder Include="Areas\Employee\Controllers\" />
     <Folder Include="Areas\Employee\Models\" />
+    <Folder Include="Areas\Employee\Views\Order\" />
+    <Folder Include="Areas\Employee\Views\Sale\" />
     <Folder Include="Areas\Employee\Views\Shared\" />
     <Folder Include="Models\" />
   </ItemGroup>
